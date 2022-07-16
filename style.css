@@ -94,3 +94,54 @@ p {
     margin-left: 1.5rem;
 }
 
+
+.feedback {
+    height: 300px;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+}
+
+
+.feedback__user--top {
+    align-self: flex-start;
+
+}
+
+@media screen and (min-width: 1440px)
+.feedback__user {
+    width: 32%;
+    margin-bottom: 0;
+}
+
+.feedback__user {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    padding: 2.5rem 1.8rem 2rem;
+}
+
+.feedback__user--inline {
+    display: flex;
+    align-items: center;
+}
+
+.feedback__user img {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.feedback__user--marginleft {
+    margin-left: 25px;
+}
+
+.feedback__user strong, .feedback__user p {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.85rem;
+}
+
+.feedback__user em {
+    color: hsl(333, 80%, 67%);
+    display: block;
+    font-size: normal;
+    margin-top: 0.3rem;
+}
