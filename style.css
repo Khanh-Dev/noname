@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+}
