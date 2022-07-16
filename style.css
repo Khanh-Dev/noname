@@ -16,3 +16,81 @@ body {
     background-repeat: no-repeat;
     margin-top: 5rem;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper, .feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro strong {
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+}
+
+.intro {
+    text-align: left;
+    width: 33%;
+}
+
+.intro p {
+    margin-top: 1.5rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.rating { 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.rating_reviews, .rating_report, .rating_besttech {
+    width: 80%;
+}
+
+.rating image {
+    margin-right: 0.3rem;
+}
+
+@media screen {
+    .rating div {
+        text-align: left;
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+.rating div {
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 7px;
+    padding: 1rem 0;
+    
+}
+
+.rating p {
+    font-weight: bold;
+    margin-top: 0.6rem;
+}
+
+.rating_reviews p, .rating_report p, .rating_besttech p {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
