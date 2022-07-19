@@ -95,19 +95,24 @@ p {
 }
 
 
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
 .feedback {
     height: 300px;
     margin-top: 3rem;
     font-size: 0.85rem;
 }
 
-
 .feedback__user--top {
     align-self: flex-start;
-
 }
 
-@media screen and (min-width: 1440px)
 .feedback__user {
     width: 32%;
     margin-bottom: 0;
@@ -144,4 +149,26 @@ p {
     display: block;
     font-size: normal;
     margin-top: 0.3rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.feedback__user--center {
+    align-self: center;
+}
+
+.feedback__user--bottom {
+    align-self: flex-end;
+}
+
+.attribution a {
+    margin-top: 6rem;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+}
+
+footer {
+    display: block;
 }
