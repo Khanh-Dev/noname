@@ -163,12 +163,28 @@ strong {
     align-self: flex-end;
 }
 
-.attribution a {
-    margin-top: 6rem;
+.attribution {
     color: hsl(300, 43%, 22%);
     text-align: center;
+}
+
+.attribution a {
+    color: hsl(300, 43%, 22%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attribution a:hover {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    padding: 0.5rem 0.5rem 0.3rem;
 }
 
 footer {
     display: block;
 }
+
+.attribution p {
+    font-size: large;
+}
+
